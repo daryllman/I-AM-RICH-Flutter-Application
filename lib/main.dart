@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage('https://images.unsplash.com/photo-1575616652983-23b9a2987012?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80'),
+            image: AssetImage('images/diamondImage.png'),
           ),
         ),
       ),
